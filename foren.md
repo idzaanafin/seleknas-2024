@@ -1,0 +1,1 @@
+- https://blog.onfvp.com/post/volatility-cheatsheet/

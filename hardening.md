@@ -1,0 +1,8 @@
+- https://security.utexas.edu/os-hardening-checklist/windows-2016#5
+- https://github.com/autostructure/harden_windows_server
+- https://github.com/decalage2/awesome-security-hardening
+- https://github.com/HotCakeX/Harden-Windows-Security
+- https://github.com/0xarpit/Windows-Server-Security_hardening-Infrastructure-Security-Audit
+- https://github.com/atlantsecurity/windows-hardening-scripts/
+- https://github.com/gjyoung1974/hardened-windows-server
+- https://github.com/eneerge/CIS-Windows-Server-2022
