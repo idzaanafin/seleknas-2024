@@ -1,4 +1,5 @@
-```def solve_quadratic(a, b, c):
+```
+def solve_quadratic(a, b, c):
     # Calculate the discriminant
 
     discriminant = b**2 - 4*a*c    
@@ -14,13 +15,17 @@
     root1 = (-b + sqrt_discriminant) // (2*a)
     root2 = (-b - sqrt_discriminant) // (2*a)
     
-    return root1, root2```
+    return root1, root2
+```
 
-```def dlog(g, x, p):
-    return int(pari(f"znlog({int((x)%p)},Mod({g},{int(p)}))"))```
+```
+def dlog(g, x, p):
+    return int(pari(f"znlog({int((x)%p)},Mod({g},{int(p)}))"))
+```
 
 
-```def solve_transformation(known_tmp_arr):
+```
+def solve_transformation(known_tmp_arr):
         plaintext = [BitVec(f'plaintext_{i}', 8) for i in range(8)]
         s1 = Solver()
         tmp_arr = [BitVec(f'tmp_arr_{j}', 8) for j in range(8)]
@@ -34,11 +39,14 @@
         if s1.check() == sat:
             model = s1.model()
             plaintext_values = bytearray([model[plaintext[i]].as_long() for i in range(8)])
-            return plaintext_values```
+            return plaintext_values
+```
 
 
-```P.<x> = PolynomialRing(Zmod(n))
-equation = persamaan```
+```
+P.<x> = PolynomialRing(Zmod(n))
+equation = persamaan
+```
 
 
 - https://crypto.stackexchange.com/questions/100766/how-to-break-rsa-when-q-e-1-bmod-p
