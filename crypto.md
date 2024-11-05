@@ -64,3 +64,4 @@ equation = persamaan
 - https://github.com/ashutosh1206/Crypton/
 - https://github.com/Merricx
 - https://github.com/nakov/Practical-Cryptography-for-Developers-Book
+- https://merri.cx/adventure-of-aes/

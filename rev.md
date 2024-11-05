@@ -1,0 +1,3 @@
+- https://pylingual.io/
+- https://binsider.dev/
+- https://guyinatuxedo.github.io/
