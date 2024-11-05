@@ -1,6 +1,6 @@
 **LINK**
 ```
-ctf.idcyberskills.com
+https://ctf.idcyberskills.com
 ```
 
 **Email**
