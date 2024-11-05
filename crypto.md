@@ -67,6 +67,32 @@ P.<x> = PolynomialRing(Zmod(n))
 equation = persamaan
 ```
 
+```
+from z3 import *
+a1 = [BitVec(f'a1_{i}', 8) for i in range(66)]
+s = Solver()
+
+for i in range(66-2):
+     if i%3 == 0:
+            v4 = a1[i]
+            if i > 62:
+                v4 = a1[i + 1] + a1[i] + a1[i + 2]
+                s.add(v4 == secrets[i])
+     elif i%3 == 1:
+            sum1 = a1[i] + a1[i - 1]
+            sum2 = a1[i] + a1[i + 1]
+            s.add(sum1 == secretf[i])
+            s.add(sum2 == secrets[i])
+     else:
+            sum1 = a1[i - 1] + a1[i] + a1[i - 2]
+            sum2 = a1[i + 1] + a1[i] + a1[i + 2]
+            s.add(sum1 == secretf[i])
+            s.add(sum2 == secrets[i])
+if s.check() == sat:
+            model = s.model()
+            print(bytearray([model[a1[i]].as_long() for i in range(66)]))
+```
+
 
 - https://crypto.stackexchange.com/questions/100766/how-to-break-rsa-when-q-e-1-bmod-p
 - https://crypto.stackexchange.com/questions/103615/in-rsa-how-to-calculate-the-private-exponent-d-after-choosing-e
