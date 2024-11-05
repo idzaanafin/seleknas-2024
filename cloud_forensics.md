@@ -1,0 +1,4 @@
+- https://medium.com/mii-cybersec/write-up-investigating-serverless-and-container-attacks-cado-ctf-on-aws-e043e4ee8d6
+- https://github.com/aws-samples/auto-cloud-digital-forensics-incident-response
+- https://medium.com/@rajendraprasanth/cloud-incident-forensic-response-part-1-aws-3c2f63e70984
+- https://github.com/awslabs/aws-automated-incident-response-and-forensics
