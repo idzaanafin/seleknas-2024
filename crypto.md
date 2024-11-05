@@ -42,6 +42,25 @@ def solve_transformation(known_tmp_arr):
             return plaintext_values
 ```
 
+```
+m = 1337
+x = 123456789
+p=254054958823884061261040682676038626423
+q=226266850984917201238064347151994984571
+# p = getPrime(128)
+# q = getPrime(128)
+n = p*q
+c1 = m*(x**14) % n
+c2 = m*(x**22) % n
+
+_x = (inverse(c1, n) * c2) % n
+assert x**8 == _x
+
+leaked_x = gmpy2.iroot(_x, 8)[0]
+leaked_m = (inverse(leaked_x**14, n) * c1) % n
+assert leaked_x == x
+assert leaked_m == m
+```
 
 ```
 P.<x> = PolynomialRing(Zmod(n))
