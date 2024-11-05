@@ -1,3 +1,4 @@
 - https://pylingual.io/
 - https://binsider.dev/
 - https://guyinatuxedo.github.io/
+- https://vickieli.dev/binary%20exploitation/intro-to-binary-patching/
