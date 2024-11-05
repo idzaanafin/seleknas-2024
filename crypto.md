@@ -84,3 +84,4 @@ equation = persamaan
 - https://github.com/Merricx
 - https://github.com/nakov/Practical-Cryptography-for-Developers-Book
 - https://merri.cx/adventure-of-aes/
+- https://github.com/prajnapras19/some-kripto-tool
