@@ -111,3 +111,4 @@ if s.check() == sat:
 - https://github.com/nakov/Practical-Cryptography-for-Developers-Book
 - https://merri.cx/adventure-of-aes/
 - https://github.com/prajnapras19/some-kripto-tool
+- https://github.com/keeganryan/flatter
