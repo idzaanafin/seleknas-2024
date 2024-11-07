@@ -6,3 +6,4 @@
 - https://github.com/atlantsecurity/windows-hardening-scripts/
 - https://github.com/gjyoung1974/hardened-windows-server
 - https://github.com/eneerge/CIS-Windows-Server-2022
+- https://github.com/projectdiscovery/nuclei-templates/pull/11088/commits/f472d50ecd3dd96b8d241ea92ba4d14848224054
